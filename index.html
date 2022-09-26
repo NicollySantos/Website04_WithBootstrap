@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto 04</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Linguagens', 'Mais utilizadas'],
+          ['HTML',     11],
+          ['CSS',      10],
+          ['Python',  2],
+          ['PHP', 4],
+          ['JavaScript',    7]
+        ]);
+
+        var options = {
+          title: 'Linguagens mais Utilizadas',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Trabalhos', 'Anos'],
+          ['2020',     5],
+          ['2021',      10],
+          ['2022',  30],
+         
+        ]);
+
+        var options = {
+          title: 'Anos mais produtivos',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d1'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+
+<body>
+
+
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Inicial </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Páginas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+  
+    <main class="site-main">
+
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Olá</h3>
+                        <h1 class="title-text text-uppercase">Eu sou Nicolly</h1>
+                        <h4 class="title-text text-uppercase">Full Stack Web Developer</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase">Contrate-me</button>
+                                <button type="button" class="btn button secondary-button text-uppercase"> <a href="https://www.canva.com/design/DAFMiBupX5Y/nCxdCN-SDsk4XGQD4tQl3g/edit?utm_content=DAFMiBupX5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Meu Currículo</a> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/banner/banner.jpg" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/banner1.jpg" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                           
+                            <span>Sobre Mim</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                Curso o ensino médio técnico de desenvolvimentos de sistemas que busca se capacitar
+                                profissionalmente como desenvolvedora web full stack. Trabalho tanto as hard skills como as
+                                soft skills, sempre visando alcançar um lugar no mercado de trabalho na área da tecnologia
+                                onde eu possa aprimorar cada vez mais o meus conhecimentos. Sou capacitada para solucionar
+                                problemas e desenvolver sistema integrados ao banco de dados.
+                            </p>
+                            <p class="para">
+                               Atualmente, curso o PROPROFISSÃO no Instituto PROA, me empenho ao 
+                               máximo para alcançar todos os meus objetivos e metas. Desenvolvendo sempre cminhas hard 
+                               skills em conjunto com as minhas soft skills!
+                            </p>
+                        </div>
+                        <button type="button" class="btn button primary-button text-uppercase"> <a href="https://www.canva.com/design/DAFMiBupX5Y/nCxdCN-SDsk4XGQD4tQl3g/edit?utm_content=DAFMiBupX5Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Meu Currículo</a> </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="brand-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="first-row row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/semear.jpg" alt="Brand-1 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/unesco.png" alt="Brand-2 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/usp.png" alt="Brand-3 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/kenzie.jpg" alt="Brand-4">
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/etec.png" alt="Brand-7 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-brand">
+                                    <img src="./img/brands/proa.jpg" alt="Brand-8 ">
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12">
+                        <div class="experience-area">
+                            <div class="d-flex flex-row years-area">
+                                <h2 class="p-3 years">+ 3</h2>
+                                <h2>
+                                    <span>Years</span>
+                                    <span>Experience</span>
+                                    <span>Studying</span>
+                                </h2>
+                            </div>
+                            <div class="d-flex flex-row flex-wrap call-area">
+                                <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
+                                <div class="call-now">
+                                    <a href="#" class="text-uppercase h4 font-roboto">Ligue Agora</a>
+                                    <span class="font-roboto py-2">(11) 9 8396-1098</span>
+                                </div>
+                            </div>
+                            <div class="bg-panel"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text">Services Offers</h1>
+                        <p class="para">
+                            Aqui há algumas ferramentas que eu já utilizei durante os meus projetos:
+                        </p>
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/js.jpg" alt="Services-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">JavaScript</h5>
+                                    <p class="card-text text-secondary">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/html.jpg" alt="Services-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">HTML</h5>
+                                    <p class="card-text text-secondary">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/css.jpg" alt="Services-3">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">CSS</h5>
+                                    <p class="card-text text-secondary">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="./img/services/php.jpg" alt="Services-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">PHP</h5>
+                                    <p class="card-text text-secondary">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+        <section>
+
+            <div id="piechart_3d" style="width: 900px; height: 500px; position: relative; left: 10px; top: 2px;"></div> 
+            <div id="piechart_3d1" style="width: 900px; height: 500px; position: relative; left: 445px;"></div> 
+        
+        </section> 
+        <section class="project-area">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1">Projetos feitos recentemente</h1>
+                    <h1 class="text-uppercase title-h1">Trabalhos de Qualidade</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">Todos</button>
+                    <button type="button" data-filter=".popular">Populares</button>
+                    <button type="button" data-filter=".latest">Mais Antigos</button>
+                    <button type="button" data-filter=".following">Ideias</button>
+                    <button type="button" data-filter=".upcoming">Reconhecidos</button>
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
+                                    <img src="./img/portfolio/p1.png" alt="portfolio-1" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Travelling.</h4>
+                                <span class="text-secondary">Mais Antigos, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
+                                    <img src="./img/portfolio/p2.png" alt="portfolio-2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">WeCare</h4>
+                                <span class="text-secondary">Popular, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
+                                    <img src="./img/portfolio/p3.png" alt="portfolio-3" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Fresh Coffee</h4>
+                                <span class="text-secondary">Popular, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p4.jpg">
+                                    <img src="./img/portfolio/p4.png" alt="portfolio-4" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Travel With Us</h4>
+                                <span class="text-secondary">Reconhecidos, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p5.jpg">
+                                    <img src="./img/portfolio/p5.png" alt="portfolio-5" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Photografy Lovers</h4>
+                                <span class="text-secondary">Reconhecidos, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
+                                    <img src="./img/portfolio/p6.png" alt="portfolio-6" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Advetures</h4>
+                                <span class="text-secondary">deias, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                                    <img src="./img/portfolio/p7.png" alt="portfolio-7" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Classix</h4>
+                                <span class="text-secondary">Ideias, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
+                                    <img src="./img/portfolio/p8.png" alt="portfolio-8" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Brazilian Food</h4>
+                                <span class="text-secondary">Ideias, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                                    <img src="./img/portfolio/p9.png" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Travels</h4>
+                                <span class="text-secondary">Reconhecidos, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ 
+        <section class="subscribe-us-area">
+            <div class="container subscribe">
+                <div class="row">
+                    <div class="col-lg-12 text-center subscribe-title">
+                        <h4 class="text-uppercase">Contato</h4>
+                        <p class="para">Digite o seu E-Mail para eu entrar em contato.</p>
+                    </div>
+                </div>
+                <div class="d-sm-flex justify-content-center">
+                    <form class="w-50">
+                        <div class="row d-flex flex-row flex-wrap">
+                            <div class="col input-textbox">
+                                <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col">
+                                <div class="btn-submit">
+                                    <button type="submit" class="btn btn-success float-right">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-area">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <a href="#"><img src="img/logo.jpg" alt="logo"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Siga-me nas redes sociais</h5>
+                    <a href="https://www.linkedin.com/in/nicolly-evangelista-hernandes-dos-santos/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/hxshx_llyy/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/NicollySantos"><i class="fab fa-github"></i></a>
+    
+                </div>
+                <div class="copyrights text-center">
+                    <p class="para">
+                        Copyright ©2022 All rights reserved | This template is made with by
+                        <a href="#"><span style="color: var(--primary-color);">Daily Tuition</span></a>
+                        and this project is made by <a href="#"><span style="color: var(--primary-color);">Nicolly E.</span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.3.4.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./vendor/isotope/isotope.min.js"></script>
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
